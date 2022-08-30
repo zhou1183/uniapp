@@ -1,0 +1,75 @@
+{
+	"pages": [{
+			"path": "pages/login/index",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			} 
+		}, {
+			"path": "pages/home/index",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			} 
+		}, {
+			"path": "pages/machineTab/index",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			} 
+		}, {
+			"path": "pages/messageTab/index",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			} 
+		}, {
+			"path": "pages/mine/index",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			} 
+		}
+	],
+
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#f8f8f9",
+		"navigationStyle": "custom",
+		"transparentTitle": "always"
+	},
+
+	"tabBar": {
+		"color": "#7A7E83",
+		"selectedColor": "#3cc51f",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"list": [{
+				"pagePath": "pages/home/index",
+				"text": "首页",
+				"iconPath": "/static/icon.png",
+				"selectedIconPath": "/static/select-icon.png"
+			},
+			{
+				"pagePath": "pages/machineTab/index",
+				"text": "塑机",
+				"iconPath": "/static/icon.png",
+				"selectedIconPath": "/static/select-icon.png"
+			},
+			{
+				"pagePath": "pages/messageTab/index",
+				"text": "消息",
+				"iconPath": "/static/icon.png",
+				"selectedIconPath": "/static/select-icon.png"
+			},
+			{
+				"pagePath": "pages/mine/index",
+				"text": "我的",
+				"iconPath": "/static/icon.png",
+				"selectedIconPath": "/static/select-icon.png"
+			}
+		]
+	}
+}
